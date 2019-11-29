@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  server:
+    image: nginx
+    container_name: nginx_server_practice_git
+    ports:
+      - 8010:80
+  backend:
+    build: .
+    container_name: laravel-practice_git
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+
+
