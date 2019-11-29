@@ -1564,6 +1564,22 @@
         },
         {
             "name": "symfony/css-selector",
+<<<<<<< HEAD
+            "version": "v4.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "64acec7e0d67125e9f4656c68d4a38a42ab5a0b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/64acec7e0d67125e9f4656c68d4a38a42ab5a0b7",
+                "reference": "64acec7e0d67125e9f4656c68d4a38a42ab5a0b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+=======
             "version": "v5.0.0",
             "source": {
                 "type": "git",
@@ -1578,11 +1594,16 @@
             },
             "require": {
                 "php": "^7.2.5"
+>>>>>>> bb53d57167fd22cbea682a1d98830080e608315c
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
+                    "dev-master": "4.4-dev"
+=======
                     "dev-master": "5.0-dev"
+>>>>>>> bb53d57167fd22cbea682a1d98830080e608315c
                 }
             },
             "autoload": {
@@ -1613,7 +1634,8 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-18T17:27:11+00:00"
+
+            "time": "2019-11-18T17:27:11+00:00",
         },
         {
             "name": "symfony/debug",
@@ -2051,6 +2073,7 @@
         },
         {
             "name": "symfony/mime",
+
             "version": "v5.0.0",
             "source": {
                 "type": "git",
@@ -2073,11 +2096,13 @@
             },
             "require-dev": {
                 "egulias/email-validator": "^2.1.10",
+
                 "symfony/dependency-injection": "^4.4|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+
                     "dev-master": "5.0-dev"
                 }
             },
@@ -2109,6 +2134,7 @@
                 "mime",
                 "mime-type"
             ],
+
             "time": "2019-11-18T17:27:11+00:00"
         },
         {
@@ -2589,6 +2615,7 @@
         },
         {
             "name": "symfony/service-contracts",
+
             "version": "v2.0.0",
             "source": {
                 "type": "git",
@@ -2611,6 +2638,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+
                     "dev-master": "2.0-dev"
                 }
             },
@@ -2643,6 +2671,7 @@
                 "interoperability",
                 "standards"
             ],
+
             "time": "2019-11-09T09:18:34+00:00"
         },
         {
@@ -2723,6 +2752,7 @@
         },
         {
             "name": "symfony/translation-contracts",
+
             "version": "v2.0.0",
             "source": {
                 "type": "git",
@@ -2744,6 +2774,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+
                     "dev-master": "2.0-dev"
                 }
             },
@@ -2776,6 +2807,7 @@
                 "interoperability",
                 "standards"
             ],
+
             "time": "2019-11-09T09:18:34+00:00"
         },
         {
