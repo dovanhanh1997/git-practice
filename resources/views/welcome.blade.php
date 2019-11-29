@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Hello Hang
+                    Hello Hang bé
                 </div>
 
                 <div class="links">
