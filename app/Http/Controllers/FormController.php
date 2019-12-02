@@ -13,4 +13,8 @@ class FormController extends Controller
     public function phong() {
         return view('form.phong');
     }
+
+    public function phongAgain() {
+        return 1;
+    }
 }
