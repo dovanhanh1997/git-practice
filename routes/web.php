@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/form', 'FormController@index')->name('form');
+Route::get('/phong', 'FormController@phong')->name('phong');
